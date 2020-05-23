@@ -1,0 +1,91 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+   
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d8d9db;
+  font-family: "Courier New", Courier, monospace;
+}
+.container{
+    background-color: #19a120;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 400px;
+    max-height: 700px;
+    align-content: space-around ;
+    flex-wrap: wrap-reverse;
+    
+    
+}
+.screen{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 100px;
+    text-align: right;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-right: 3%;;
+}
+.buttons{
+    width: 400px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    width: 100px;
+    background-color: #d8d9db;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;  
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    font-size: 60px;;
+
+}
+.btn-func{
+    background-color: #df974c;
+    color: white;
+}
+.clear{
+    width: 200px;
+    height: 100px;
+}
+.zero{
+    width: 300px;
+    height: 100px;
+}
+.double-zero{
+    width: 400px;
+    height: 100px;
+}
+.row{
+    display: flex;
+    
+    align-content: center;
+}
